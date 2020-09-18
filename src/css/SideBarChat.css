@@ -1,0 +1,9 @@
+.sidebarChat {
+    display: flex;
+    cursor: pointer;
+    padding: 20px;
+    border-bottom: 2px solid #f6f6f6;
+}
+.sidebarChat:hover {
+    background-color: #88e2de;
+}
