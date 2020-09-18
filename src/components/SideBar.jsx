@@ -5,6 +5,7 @@ import { Avatar, IconButton } from '@material-ui/core';
 import ForumRoundedIcon from '@material-ui/icons/ForumRounded';
 import MoreVertRoundedIcon from '@material-ui/icons/MoreVertRounded';
 import { SearchOutlined } from "@material-ui/icons";
+import SideBarChat from './SideBarChat';
 
 function SideBar() {
 
@@ -37,6 +38,11 @@ function SideBar() {
               type="text"
               />
         </div>
+        </div>
+        <div className='sidebar__chats'>
+            <SideBarChat/>
+            <SideBarChat/>
+            <SideBarChat/>
         </div>
 
 
