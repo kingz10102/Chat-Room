@@ -29,3 +29,13 @@
     justify-content: space-between;
     min-width: 100px;
 }
+.chat__bodySpace {
+    flex: 1;
+    background-image: url("https://cdn5.f-cdn.com/contestentries/585750/18233577/577a92bb5e980_thumb900.jpg");
+    opacity: 0.85;
+    /* background-color: lightsalmon; */
+    background-repeat: repeat;
+    background-position: center;
+    padding: 30px;
+    overflow: scroll;
+}
