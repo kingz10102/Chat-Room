@@ -1,16 +1,15 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
-
-import Join from './components/Join/Join';
-import Chat from './components/Chat/Chat';
+import Chat from './components/Chat';
+import SideBar from './components/SideBar';
+import './App.css'
 
 function App() {
-	
-  
-  return(
-    <div className="app">
-      <div>
 
+return(
+    <div className="app">
+      <div className='app__bodyspace'>
+      <SideBar/>
+      <Chat/>
       </div>
     </div>
 );
