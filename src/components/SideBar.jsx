@@ -5,13 +5,15 @@ import { Avatar, IconButton } from '@material-ui/core';
 import ForumRoundedIcon from '@material-ui/icons/ForumRounded';
 import MoreVertRoundedIcon from '@material-ui/icons/MoreVertRounded';
 import { SearchOutlined } from "@material-ui/icons";
+
 function SideBar() {
+
     // const [{ user }, dispatch] = useStateValue();
 
     return (
         <div className='sidebar'>
             <div className='sidebar__heading'>
-                {/* <Avatar src={user?.photoURL}/> */}
+                <Avatar />
                 <div className='sidebar__headingRight'>
                     {/* makes it clickable */}
                     <IconButton>
@@ -34,8 +36,12 @@ function SideBar() {
               placeholder="Look up or chat away!" 
               type="text"
               />
-                </div>
-            </div>
+        </div>
+        </div>
+
+
+
+
 
         </div>
     )

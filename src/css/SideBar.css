@@ -28,7 +28,7 @@
     color: gray;
     padding: 10px;
 }
-.sidebar__header {
+.sidebar__heading {
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -47,8 +47,8 @@
     
 }
 
-.sidebar__chats {
+/* .sidebar__chats {
     flex: 1;
     background-color:whitesmoke;
     overflow: hidden;
-}
+} */
